@@ -25,7 +25,7 @@ This method involved randomly rearranging the data in a column so that the origi
 
 This involves replacing sensitive data with tokens (usually random strings of characters). 
 
-Ihaven't covered all the tools available but some of the common tools used by data profesionals as they analyze the data. As noted, the shape of the dataset remained constant as you wouldn't want to use a tool that would aletr the shape of your data. However, kindly note that there are certain factors to consider as you select a tool for anonymizing your data:
+I haven't covered all the tools available but some of the common tools used by data profesionals as they analyze the data. As noted, the shape of the dataset remained constant as you wouldn't want to use a tool that would aletr the shape of your data. However, kindly note that there are certain factors to consider as you select a tool for anonymizing your data:
 
 - Data Consistency: When anonymizing data, it's important to maintain the same type and format of data. For example, if a field originally contains a phone number, it should still contain a phone number after being anonymized.
 - Relevance: If you are replacing data in fields like 'Location', ensure the generated data is relevant. For instance, it might be misleading to have a country that doesn't match the phone number country code. Additionally, when shuffling data, you disrupt the relationships between different data fields. This can limit the usefulness of the data for many analytical tasks that rely on understanding correlations between different data fields.
